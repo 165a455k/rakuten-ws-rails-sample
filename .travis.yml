@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: CxhrshR9oP2pkt4u3Dj5XLNi0W8GzUtu7rms2cFnr+XEb3JOsJwtI2YrC4IHv06UzxSuqceilVcadT9oAFcqCzHUO8ozfjBm1B70cqoYb7dbldUHrRkz+h0eKB9Ofx6bbrU7wc0pnfNHJ+7sd4riXTkcguGhHTLlmifiz63pKNk=
+  app: whispering-citadel-9955
+  on:
+    repo: 165a455k/rakuten-ws-rails-sample
